@@ -8,9 +8,9 @@
 #
 cmake_minimum_required(VERSION 3.15)
 
-# default to 10.12 (might work with an earlier version, i dont know)
+# default to 10.11 (might work with an earlier version, i dont know)
 if (NOT DEFINED STOCHAS_MAC_SDK_VER)
-  set(STOCHAS_MAC_SDK_VER 10.12)
+  set(STOCHAS_MAC_SDK_VER 10.11)
 endif()
 
 set(CMAKE_OSX_DEPLOYMENT_TARGET ${STOCHAS_MAC_SDK_VER} CACHE STRING "Build for ${STOCHAS_MAC_SDK_VER}")
